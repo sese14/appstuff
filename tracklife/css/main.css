@@ -23,9 +23,6 @@ ul {
   }
 
 
-
-}
-
 .button{
     cursor: pointer;
 }
@@ -100,9 +97,53 @@ article{
   background: white;
   right: 0;
   bottom: 70px;
-  width: 70%;
+  width: 95%;
 }
 
 .tablinks{
-  height: 5vh;
+  height: 7vh;
+}
+
+.tabcontent{
+  grid-template-rows: 20% 1fr 1fr 1fr;
+  margin: 0;
+  padding: 0;
+}
+
+.tabcontent h3{
+  grid-column: 1/4;
+  margin:0;
+  padding: 0;
+  text-align: center;
+}
+
+}
+
+.tabcontent p{
+  margin: 0;
+  margin-left: 10px ;
+  padding: 0;
+  grid-column: 1/2;
+}
+
+#squ{
+  grid-column: 2/3;
+  justify-self: end;
+}
+
+#bot{
+  grid-column: 3/4;
+  justify-self: center;
+}
+
+
+
+button.gm-control-active.gm-fullscreen-control {
+  display: none;
+}
+
+
+
+.gmnoprint {
+  display: none;
 }
