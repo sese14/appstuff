@@ -1,0 +1,61 @@
+body{
+background-image: url("tracklifeweb.png");
+min-height: 100%;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+background-size: cover;}
+
+h1{
+    display: none;
+}
+
+input{
+    border: solid black 1px;
+    width: 290px;
+    height: 50px;
+    position: absolute;
+    right: 140px;
+    bottom: 230px;
+    font-size: 2em;
+}
+
+button{
+    border-radius: 10px;
+    background-color:rgb(162, 47, 47);
+    height: 65px;
+    width: 65px;
+    position: absolute;
+    right: 80px;
+    bottom: 220px;
+    z-index: +1;
+}
+
+img{
+    transform: rotate(10deg);
+    position: absolute;
+    top: 120px;
+    left: 280px;
+    height: 40%;
+}
+
+.ske{
+    z-index: -1;
+    transform: rotate(20deg);
+    position: absolute;
+    top: 120px;
+    left: 250px;
+    height: 40%;
+}
+
+section{
+    position: absolute;
+    background: radial-gradient( gold, goldenrod, rgb(95, 70, 8));
+    border-radius: 100px;
+    top: 120px;
+    left: 315px;
+    border: solid rgba(0, 0, 0, 0.283) 1px;
+    height: 20px;
+    width: 20px;
+    z-index: +10;
+}
