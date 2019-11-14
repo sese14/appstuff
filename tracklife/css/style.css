@@ -1,0 +1,77 @@
+body{ 
+    margin: 0;
+    padding: 0;
+    background-image: url(billeder/topbillede.png);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.contact-form{
+    grid-column: 1;
+    width: 85%;
+    max-width: 600px;
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 30px 40px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    text-align: center;
+    box-sizing: 0 0 20px #000000b3;
+    font-family: "Montserrat",sans-serif;
+}
+.contact-form h1{ 
+    color: white;
+    margin-top: 10px;
+    font-weight: 200;
+}
+.txtb{
+    border: 1px solid gray;
+    margin: 8px 0;
+    padding: 12px 18px;
+    border-radius: 20px;
+    background: white;
+}
+.txtb label{
+    display: block;
+    text-align: left;
+    color: lightgreen;
+    text-transform: uppercase;
+    font-size: 14 px;
+    }
+.txtb input, .txtb textarea{
+        width: 100%;
+        border: none;
+        background: none;
+        outline: none;
+        font-size: 18px;
+        margin-top: 6px;
+    }
+.btn{
+    display: inline-block;
+    background: black;
+    padding: 14px 0;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 8px;
+    width: 100%;
+}  
+.feedback {
+    background-color : #31B0D5;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border-color: #46b8da;
+  }
+  
+  #mybutton {
+    position: fixed;
+    bottom: -4px;
+    right: 10px;
+  }  

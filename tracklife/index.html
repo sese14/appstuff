@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Track Life</title>
+    <link rel="stylesheet" href="css/main.css">
+    
+</head>
+<body>
+ 
+
+      <nav>
+
+      <a href="settings.html"><img src="css/billeder/icons8-settings-50.png"  alt=""></a>
+       <a href="#" id="button" class="button"><img src="css/billeder/icons8-marker-48.png" alt=""></a>
+      <a href="kontakt.html"><img src="css/billeder/icons8-account-50.png" alt=""></a>
+      </nav>
+     
+      <article id="foo" style="display: none;">
+         
+          <div id="London" class="tabcontent">
+              <h3>people</h3>
+              <p>jacob</p>
+            </div>
+            
+            <div id="Paris" class="tabcontent">
+              <h3>pets</h3>
+              <p>Paris is the capital of France.</p> 
+            </div>
+            
+            <div id="Tokyo" class="tabcontent">
+              <h3>items</h3>
+              <p>Tokyo is the capital of Japan.</p>
+            </div>
+            
+            <div id="ADD" class="tabcontent">
+              <h3>Add</h3>
+              <p>sadasdasd asdhsahs sh sh sh s</p>
+            </div>
+          
+          <div class="tab">
+            <button class="tablinks" onclick="openCity(event, 'London')">People</button>
+            <button class="tablinks" onclick="openCity(event, 'Paris')">Pets</button>
+            <button class="tablinks" onclick="openCity(event, 'Tokyo')">Items</button>
+            <button class="tablinks" onclick="openCity(event, 'ADD')">ADD</button>
+          </div>
+
+        </article>
+        
+
+      
+      <div id="map"></div>
+      <script src="css/main.js"></script>
+      
+<script src="https://maps.googleapis.com/maps/api/js?key=&callback=initMap" async defer></script>
+    </body>
+
+</html>
