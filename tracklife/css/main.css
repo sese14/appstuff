@@ -1,4 +1,5 @@
 body{
+<<<<<<< HEAD
 
   background-image: url("billeder/wall.png");
   
@@ -7,6 +8,10 @@ body{
 
   margin: 0;
 ]
+=======
+    margin: 0;
+}
+>>>>>>> parent of d5e5b7d...  test
 nav, .footer{
    
     display: flex;
@@ -20,6 +25,7 @@ nav, .footer{
     background: rgba(0, 166, 231, 0.5);
 }
 
+<<<<<<< HEAD
 
 #dum, #bts {
  width: 100%;
@@ -32,11 +38,14 @@ nav, .footer{
   text-align: right;
 }
 
+=======
+>>>>>>> parent of d5e5b7d...  test
 ul {
     list-style-type: none;
     margin: auto, auto;
     padding: 0;
     overflow: hidden;
+<<<<<<< HEAD
       display: flex;
       flex-direction: column;
       margin: 10% 10%;
@@ -47,6 +56,9 @@ ul {
 /* hidden until we decide on images*/
   ul img{
     display: none;
+=======
+    background-color: rgb(255, 255, 255);
+>>>>>>> parent of d5e5b7d...  test
   }
 
 
@@ -74,11 +86,10 @@ ul {
   text-align: center;
   text-decoration: none;
   font-size: 25px;
-  margin: 10px 2px;
+  margin: 4px 2px;
   cursor: pointer;
   border-radius: 22px;
   min-width: 230px;
-  grid-column: 2;
 }
 
 /* Style the tab */
