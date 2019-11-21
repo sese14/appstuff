@@ -164,6 +164,7 @@ align-self: center;
   background-color: #4CAF50;
   border-radius: 30px;
   border: black solid 1px;
+  width: 100%;
 }
 
 .tabcontent p{
