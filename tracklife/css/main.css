@@ -1,19 +1,13 @@
 
 body{
-<<<<<<< HEAD
 
   background-image: url("billeder/wall.png");
   
   background-size: cover;
   background-position: center;
 
-  margin: 0;
 
-
-
-=======
     margin: 0;
->>>>>>> parent of 920df0b... en masse småting
 }
 nav, .footer{
    
@@ -22,32 +16,27 @@ nav, .footer{
     justify-content: space-between;
     position: fixed;
     bottom: 0;
-    height: 7vh;
+    height: 8vh;
     width: 100%;
     border-top: solid black 0.75px;
     background: rgba(0, 166, 231, 0.5);
 }
 
-<<<<<<< HEAD
+
 #dum, #bts {
  width: 100%;
 }
 
 .tabcontent a{
   width: 100%;
-}
-.tabcontent #bot{
-  text-align: right;
-.settings_header{
-  font-size: 3em;
-    grid-column: 2;
-    grid-row: 1;
+  text-align: center;
+  font-size: 2em;
+    grid-column: 3;
+  
     justify-self: center;
-    margin: 10px;
+    
 }
 
-=======
->>>>>>> parent of 920df0b... en masse småting
 ul {
     list-style-type: none;
     margin: 0;
@@ -136,23 +125,25 @@ article{
 
 .tablinks{
   height: 7vh;
+  width: 25%;
 }
 
 .tabcontent{
-  grid-template-rows: 20% 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
   margin: 0;
   padding: 0;
 }
 
 .tabcontent h3{
   grid-column: 1/4;
-  margin:0;
-  padding: 0;
+  
   text-align: center;
 }
+div#ADD h3{
+  padding-top: 3vh;
+}
 
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 #bpt p{
   padding: 0;
 
@@ -190,21 +181,17 @@ align-self: center;
 #bot{
   grid-column: 3/4;
   justify-self: center;
-<<<<<<< HEAD
-=======
   color: black;
+  padding: 0;
+margin: 0;
   
 }
 
-#bot{
-  width: 2em;
-}
 input[type="text"] {
   grid-column: 2;
   height: 7vh;
   background-color: lightgrey;
   align-self: center;
->>>>>>> parent of 920df0b... en masse småting
 }
 
 
@@ -217,4 +204,10 @@ button.gm-control-active.gm-fullscreen-control {
 
 .gmnoprint {
   display: none;
+}
+
+
+
+.s1{
+  display:none;
 }
