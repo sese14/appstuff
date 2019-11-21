@@ -37,12 +37,15 @@ nav, .footer{
     
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: rgb(255, 255, 255);
+ul {list-style-type: none;
+  margin: auto, auto;
+  padding: 0;
+  overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    margin: 10% 10%;
+    justify-content: space-between;
+    height: 75vh;
   }
 
 
