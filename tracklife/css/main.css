@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 body{
 
   background-image: url("billeder/wall.png");
@@ -8,11 +9,16 @@ body{
 
   margin: 0;
 =======
+=======
+>>>>>>> parent of 9bf3a40... Merge branch 'master' of https://github.com/sese14/appstuff
 .bodysettings{
     margin: 0;
     display: grid;
     grid-template-columns: 20% 60% 20%;
     grid-template-rows: 35% 10% 10% 10% 10% 10% 15%;
+<<<<<<< HEAD
+>>>>>>> parent of 9bf3a40... Merge branch 'master' of https://github.com/sese14/appstuff
+=======
 >>>>>>> parent of 9bf3a40... Merge branch 'master' of https://github.com/sese14/appstuff
 }
 nav, .footer{
@@ -29,6 +35,7 @@ nav, .footer{
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #dum, #bts {
  width: 100%;
 }
@@ -39,12 +46,17 @@ nav, .footer{
 .tabcontent #bot{
   text-align: right;
 =======
+=======
+>>>>>>> parent of 9bf3a40... Merge branch 'master' of https://github.com/sese14/appstuff
 .settings_header{
   font-size: 3em;
     grid-column: 2;
     grid-row: 1;
     justify-self: center;
     margin: 10px;
+<<<<<<< HEAD
+>>>>>>> parent of 9bf3a40... Merge branch 'master' of https://github.com/sese14/appstuff
+=======
 >>>>>>> parent of 9bf3a40... Merge branch 'master' of https://github.com/sese14/appstuff
 }
 
@@ -154,6 +166,7 @@ article{
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #bpt p{
   padding: 0;
 
@@ -174,6 +187,8 @@ align-self: center;
   border-radius: 30px;
   border: black solid 1px;
   width: 100%;
+=======
+>>>>>>> parent of 9bf3a40... Merge branch 'master' of https://github.com/sese14/appstuff
 =======
 >>>>>>> parent of 9bf3a40... Merge branch 'master' of https://github.com/sese14/appstuff
 }
