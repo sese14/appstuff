@@ -6,7 +6,7 @@ body{
   background-position: center;
 
   margin: 0;
-]
+}
 nav, .footer{
    
     display: flex;
@@ -19,7 +19,6 @@ nav, .footer{
     border-top: solid black 0.75px;
     background: rgba(0, 166, 231, 0.5);
 }
-
 
 #dum, #bts {
  width: 100%;
@@ -74,11 +73,10 @@ ul {
   text-align: center;
   text-decoration: none;
   font-size: 25px;
-  margin: 10px 2px;
+  margin: 4px 2px;
   cursor: pointer;
   border-radius: 22px;
   min-width: 230px;
-  grid-column: 2;
 }
 
 /* Style the tab */
