@@ -1,9 +1,12 @@
-.bodysettings{
-    margin: 0;
-    display: grid;
-    grid-template-columns: 20% 60% 20%;
-    grid-template-rows: 35% 10% 10% 10% 10% 10% 15%;
-}
+body{
+
+  background-image: url("billeder/wall.png");
+  
+  background-size: cover;
+  background-position: center;
+
+  margin: 0;
+]
 nav, .footer{
    
     display: flex;
@@ -11,28 +14,39 @@ nav, .footer{
     justify-content: space-between;
     position: fixed;
     bottom: 0;
-    height: 7vh;
+    height: 8vh;
     width: 100%;
     border-top: solid black 0.75px;
     background: rgba(0, 166, 231, 0.5);
 }
 
-.settings_header{
-  font-size: 3em;
-    grid-column: 2;
-    grid-row: 1;
-    justify-self: center;
-    margin: 10px;
+
+#dum, #bts {
+ width: 100%;
+}
+
+.tabcontent a{
+  width: 100%;
+}
+.tabcontent #bot{
+  text-align: right;
 }
 
 ul {
     list-style-type: none;
-    margin: 0;
+    margin: auto, auto;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(255, 255, 255);
-    justify-self: center;
-    align-self: center;
+      display: flex;
+      flex-direction: column;
+      margin: 10% 10%;
+      justify-content: space-between;
+      height: 75vh;
+  }
+
+/* hidden until we decide on images*/
+  ul img{
+    display: none;
   }
 
 
@@ -104,6 +118,7 @@ ul {
   height: 45vh;
   border: 1px solid #ccc;
   border-top: none;
+  font-size: 1.4em;
 }
 
 article{
@@ -111,15 +126,16 @@ article{
   background: white;
   right: 0;
   bottom: 70px;
-  width: 95%;
+  width: 80%;
 }
 
 .tablinks{
   height: 7vh;
+  width: 25%;
 }
 
 .tabcontent{
-  grid-template-rows: 20% 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
   margin: 0;
   padding: 0;
 }
@@ -131,12 +147,31 @@ article{
   text-align: center;
 }
 
+#bpt p{
+  padding: 0;
+
+}
+
+i#as{
+font-size: 1.8em;
+justify-self: center;
+align-self: center;
+}
+
+#bpt{
+  grid-column: 3;
+  text-align: center;
+  align-self: center;
+  height: 60px;
+  background-color: #4CAF50;
+  border-radius: 30px;
+  border: black solid 1px;
 }
 
 .tabcontent p{
   margin: 0;
-  margin-left: 10px ;
   padding: 0;
+  padding-left: 30px;
   grid-column: 1/2;
 }
 
@@ -145,11 +180,27 @@ article{
   justify-self: end;
 }
 
-#bot{
+a{
   grid-column: 3/4;
   justify-self: center;
+  color: black;
+  
 }
 
+#bot{
+  width: 2em;
+}
+input[type="text"] {
+  grid-column: 2;
+  height: 7vh;
+  background-color: lightgrey;
+  align-self: center;
+  font-size: 0.6em;
+}
+
+#ADD h3{
+  padding-top: 7vh;
+}
 
 
 button.gm-control-active.gm-fullscreen-control {
