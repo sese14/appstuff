@@ -1,5 +1,6 @@
 
 body{
+<<<<<<< HEAD
 
   background-image: url("billeder/wall.png");
   
@@ -10,6 +11,9 @@ body{
 
 
 
+=======
+    margin: 0;
+>>>>>>> parent of 920df0b... en masse småting
 }
 nav, .footer{
    
@@ -24,6 +28,7 @@ nav, .footer{
     background: rgba(0, 166, 231, 0.5);
 }
 
+<<<<<<< HEAD
 #dum, #bts {
  width: 100%;
 }
@@ -41,6 +46,8 @@ nav, .footer{
     margin: 10px;
 }
 
+=======
+>>>>>>> parent of 920df0b... en masse småting
 ul {
     list-style-type: none;
     margin: 0;
@@ -183,6 +190,21 @@ align-self: center;
 #bot{
   grid-column: 3/4;
   justify-self: center;
+<<<<<<< HEAD
+=======
+  color: black;
+  
+}
+
+#bot{
+  width: 2em;
+}
+input[type="text"] {
+  grid-column: 2;
+  height: 7vh;
+  background-color: lightgrey;
+  align-self: center;
+>>>>>>> parent of 920df0b... en masse småting
 }
 
 
