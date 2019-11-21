@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 body{
 
   background-image: url("billeder/wall.png");
@@ -20,6 +21,10 @@ body{
 >>>>>>> parent of 9bf3a40... Merge branch 'master' of https://github.com/sese14/appstuff
 =======
 >>>>>>> parent of 9bf3a40... Merge branch 'master' of https://github.com/sese14/appstuff
+=======
+body{
+    margin: 0;
+>>>>>>> parent of d5e5b7d...  test
 }
 nav, .footer{
    
@@ -34,6 +39,7 @@ nav, .footer{
     background: rgba(0, 166, 231, 0.5);
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 #dum, #bts {
@@ -60,14 +66,14 @@ nav, .footer{
 >>>>>>> parent of 9bf3a40... Merge branch 'master' of https://github.com/sese14/appstuff
 }
 
+=======
+>>>>>>> parent of d5e5b7d...  test
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: rgb(255, 255, 255);
-    justify-self: center;
-    align-self: center;
   }
 
 
